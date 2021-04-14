@@ -1,0 +1,67 @@
+BUBBLE BLAST
+
+History game:
+	1) Move: 4,1
+		Result:
+			Bubble (4,1) change status: SGONFIA		--->		GONFIA_A_META
+	2) Move: 4,1
+		Result:
+			Bubble (4,1) change status: GONFIA_A_META		--->		PER_ESPLODERE
+	3) Move: 4,1
+		Result:
+			Bubble (4,1) change status: SGONFIA		--->		ESPLOSA
+			Bubble (4,2) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (3,1) change status: SGONFIA		--->		ESPLOSA
+			Bubble (3,2) change status: SGONFIA		--->		ESPLOSA
+			Bubble (3,3) change status: SGONFIA		--->		ESPLOSA
+			Bubble (3,4) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (2,3) change status: SGONFIA		--->		ESPLOSA
+			Bubble (2,2) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (2,4) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (1,3) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (4,3) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (4,3) change status: SGONFIA		--->		ESPLOSA
+			Bubble (4,2) change status: SGONFIA		--->		ESPLOSA
+			Bubble (4,4) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (2,2) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (5,2) change status: SGONFIA		--->		ESPLOSA
+			Bubble (5,1) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (5,3) change status: SGONFIA		--->		ESPLOSA
+			Bubble (5,1) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (5,4) change status: SGONFIA		--->		ESPLOSA
+			Bubble (5,1) change status: SGONFIA		--->		ESPLOSA
+			Bubble (5,5) change status: SGONFIA		--->		ESPLOSA
+			Bubble (5,6) change status: SGONFIA		--->		ESPLOSA
+			Bubble (4,6) change status: SGONFIA		--->		ESPLOSA
+			Bubble (4,5) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (3,6) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (4,5) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (2,1) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (4,4) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (1,3) change status: SGONFIA		--->		ESPLOSA
+			Bubble (1,2) change status: SGONFIA		--->		ESPLOSA
+			Bubble (1,1) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (1,4) change status: SGONFIA		--->		ESPLOSA
+			Bubble (1,1) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (1,5) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (2,4) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (2,2) change status: SGONFIA		--->		ESPLOSA
+			Bubble (2,1) change status: SGONFIA		--->		ESPLOSA
+			Bubble (2,4) change status: SGONFIA		--->		ESPLOSA
+			Bubble (2,5) change status: SGONFIA		--->		ESPLOSA
+			Bubble (2,6) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (1,5) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (3,5) change status: SGONFIA		--->		GONFIA_A_META
+			Bubble (3,4) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (1,1) change status: SGONFIA		--->		ESPLOSA
+			Bubble (1,5) change status: SGONFIA		--->		ESPLOSA
+			Bubble (1,6) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (3,5) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (2,6) change status: GONFIA_A_META		--->		PER_ESPLODERE
+			Bubble (1,6) change status: SGONFIA		--->		ESPLOSA
+			Bubble (2,6) change status: SGONFIA		--->		ESPLOSA
+			Bubble (3,6) change status: SGONFIA		--->		ESPLOSA
+			Bubble (3,5) change status: SGONFIA		--->		ESPLOSA
+			Bubble (3,4) change status: SGONFIA		--->		ESPLOSA
+			Bubble (4,4) change status: SGONFIA		--->		ESPLOSA
+			Bubble (4,5) change status: SGONFIA		--->		ESPLOSA
