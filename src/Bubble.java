@@ -25,4 +25,14 @@ public class Bubble {
     public void setStatus(BubbleStatus status) {
         this.status = status;
     }
+
+    public static String ToStringStatus(Bubble bubble) {
+        if (bubble == null)
+            return "(_)  ";
+        return switch (bubble.getStatus()) {
+            case SGONFIA -> "(3)  ";
+            case GONFIA_A_META -> "(2)  ";
+            default -> "(1)  ";
+        };
+    }
 }
