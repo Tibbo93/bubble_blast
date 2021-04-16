@@ -5,12 +5,12 @@ import java.io.IOException;
 
 public class BubbleBlast {
 
-    private final Grid grid;
+    private Grid grid;
     private File file;
     private static BufferedWriter bufferedWriter;
 
-    public BubbleBlast(Grid grid) {
-        this.grid = grid;
+    public BubbleBlast() {
+        this.grid = new Grid(0,0);
 
         try {
             File f = new File("bubble_blast_history_game.txt");
@@ -26,6 +26,10 @@ public class BubbleBlast {
 
     public Grid getGrid() {
         return grid;
+    }
+
+    public void setGrid(Grid grid) {
+        this.grid = grid;
     }
 
     public static void writeOnFile(String s) {

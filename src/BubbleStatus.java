@@ -1,9 +1,9 @@
 import java.util.Random;
 
 public enum BubbleStatus {
-    SGONFIA,
+    PER_ESPLODERE,
     GONFIA_A_META,
-    PER_ESPLODERE;
+    SGONFIA;
 
     private static final BubbleStatus[] status = BubbleStatus.values();
     private static final Random random = new Random();
